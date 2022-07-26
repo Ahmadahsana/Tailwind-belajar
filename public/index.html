@@ -134,7 +134,7 @@
     </style>
 </head>
 
-<body class="bg-gray-800">
+<body class="bg-gray-800 ">
 
     <!-- <div class="text-center">
         <h1 class="text-3xl text-center text-white bg-cyan-600 inline-block p-2 mt-5 rounded-lg shadow-md">My tailwind
@@ -163,7 +163,7 @@
     </section> -->
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <nav class="bg-gray-800 shadow-lg shadow-violet-800">
+    <nav class="bg-gray-800 shadow-lg shadow-violet-800 relative ">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="relative flex items-center justify-between h-16">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -297,24 +297,24 @@
                 <h1 class="text-4xl text-white">Service</h1>
                 <p class="pt-2">INI DAFTAR APLIKASI PURA IT</p>
             </div> -->
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gab-20">
-                <div class="relative mx-12 my-8">
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gab-4">
+                <div class="relative mx-16 my-8">
                     <div
                         class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
                     </div>
-                    <div class="relative z-20 bg-white h-full rounded-md shadow-md ">
-                        <div class="w-full h-44 bg-slate-300 rounded-t-md"
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+                        <div class="w-full h-36 bg-slate-300 rounded-t-md"
                             style="background-image: url('img/3.jpg'); background-size: cover;">
                         </div>
                         <div class="px-4 pb-4">
-                            <h2 class="pt-3 font-bold text-2xl text-gray-800">Pura Keluhan</h2>
-                            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam magnam
+                            <h2 class="pt-2 font-bold text-xl text-gray-800">Pura Keluhan</h2>
+                            <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam magnam
                                 debitis nisi
-                                sapiente nesciunt animi quasi error perspiciatis sunt!</p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="relative mx-12 my-8">
+                <div class="relative mx-16 my-8">
                     <div
                         class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
                     </div>
@@ -331,11 +331,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative mx-12 my-8">
+                <div class="relative mx-16 my-8 group">
                     <div
-                        class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+                        class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg group-hover:rotate-12 group-hover:scale-110">
                     </div>
-                    <div class="relative z-20 bg-white h-full rounded-md shadow-md ">
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md  group-hover:scale-110">
                         <!-- <img src="img/3.jpg" class="rounded-t-md" alt=""> -->
                         <div class="w-full h-44 bg-slate-300 rounded-t-md"
                             style="background-image: url('img/3.jpg'); background-size: cover;">
@@ -348,17 +348,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative mx-12 my-8">
+                <div class="relative mx-16 my-8 group">
                     <div
-                        class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+                        class="absolute z-10 inset-0 bg-gradient-to-r from-violet-500 to-teal-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg group-hover:rotate-12 group-hover:scale-110 transition">
                     </div>
-                    <div class="relative z-20 bg-white h-full rounded-md shadow-md ">
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md  group-hover:scale-110 transition">
                         <!-- <img src="img/3.jpg" class="rounded-t-md" alt=""> -->
                         <div class="w-full h-44 bg-slate-300 rounded-t-md"
                             style="background-image: url('img/3.jpg'); background-size: cover;">
                         </div>
                         <div class="px-4 pb-4">
-                            <h2 class="pt-3 font-bold text-2xl text-gray-800">Pura Keluhan</h2>
+                            <h2 class="pt-3 font-bold text-2xl text-gray-800">Drawman</h2>
                             <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam magnam
                                 debitis nisi
                                 sapiente nesciunt animi quasi error perspiciatis sunt!</p>
@@ -369,7 +369,8 @@
         </div>
     </section>
 
-    <div class="max-w-xl h-96 bg-orange-600 mx-auto overflow-scroll bg-fixed"
+
+    <div class="relative max-w-xl h-96 bg-orange-600 mx-auto overflow-scroll bg-fixed"
         style="background-image: url('img/3.jpg'); background-size: cover;">
         <p class="p-5 text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, pariatur excepturi?
             Sit at, rem ex delectus suscipit libero animi totam neque. Possimus vel iure sapiente pariatur fuga dolor
@@ -380,6 +381,19 @@
             reiciendis architecto placeat ut commodi ratione aperiam nihil nesciunt quia recusandae aliquid inventore,
             neque suscipit illo est debitis. Provident?</p>
     </div>
+
+    <div
+        class="mt-24 max-w-xl my-10 border border-cyan-500 rounded-md mx-auto p-5 shadow-md shadow-slate-400 hover:bg-cyan-500 hover:border-white group">
+        <h5 class="text-white text-center text-lg group-hover:text-slate-600">My car</h5>
+        <p class="mt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptate
+            accusantium id?
+            Totam sed
+            repudiandae vitae laboriosam dignissimos mollitia porro.</p>
+    </div>
+
+    <div class="w-40 h-40 bg-slate-100 mx-auto" style="background-image: url(img/decor.png); background-size: cover">
+    </div>
+    <img src="img/decor.png" alt="" class="absolute -top-48 lg:right-60 lg:-top-2/3 w-2/3 -z-10">
 
     <div class="mt-96 mb-96"></div>
     <!-- <h1 class="text-7xl font-extrabold text-amber-300 drop-shadow-lg ">Hello World</h1> -->
